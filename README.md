@@ -1,4 +1,4 @@
-# YouTube Data Engineering Pipeline
+# YouTube ETL Pipeline Project
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-Orchestration-red)
