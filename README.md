@@ -199,7 +199,7 @@ The pipeline will automatically:
 
 ## Airflow DAG Execution
 
-Paste screenshot here
+
 
 ![Airflow DAG]( images/airflow_dag.png)
 
@@ -207,7 +207,7 @@ Paste screenshot here
 
 ## Raw JSON Data Extracted
 
-Paste screenshot here
+
 
 ![Raw Data](images/raw_data.png )
 
@@ -215,7 +215,7 @@ Paste screenshot here
 
 ## Transformed Data (CSV)
 
-Paste screenshot here
+
 
 ![Transformed Data](images/transformed_data.png )
 
@@ -223,7 +223,7 @@ Paste screenshot here
 
 ## Data Loaded in PostgreSQL (Viewed in DBeaver)
 
-Paste screenshot here
+
 
 ![Database Table](images/postgres_table.png )
 
