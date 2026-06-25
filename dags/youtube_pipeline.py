@@ -3,7 +3,7 @@ from airflow.providers.standard.operators.bash import BashOperator
 from datetime import datetime
 
 with DAG(
-    dag_id="youtube_etl_pipeline_v1.0",
+    dag_id="youtube_etl_pipeline_v1.1",
     start_date=datetime(2026,1,1),
     schedule="@daily",
     catchup=False

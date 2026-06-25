@@ -25,10 +25,12 @@ def extract_data(query="data engineering"):
         response = request.execute()
 
         # 2️ Collect video IDs
+        
         video_ids = [
-            item["id"]["videoId"]
-            for item in response.get("items", [])
-        ]
+    item["id"].get("videoId")
+    for item in response.get("items", [])
+    if item.get("id", {}).get("videoId")  ## UPDATE: Use .get("videoId") and check if the key exists before adding it to the list, so missing values don't crash the pipeline.
+]
 
         # 3️ Fetch statistics using video IDs
         stats_request = youtube.videos().list(
